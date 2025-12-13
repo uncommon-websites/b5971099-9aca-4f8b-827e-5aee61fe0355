@@ -1,24 +1,24 @@
 <script lang="ts">
   const stats = [
     {
-      label: "30+ People",
-      desc: "You're a small, but mighty team of curious problem-solvers and explorers. With a versatile, Swiss-knife mentality, we thrive on tackling diverse challenges. Our core team is tight-knit, yet we seamlessly tap into a wider network of experts when needed. Here, theory meets practice, and together, we get things done.",
-      img: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=200"
+      label: "5 Years Experience",
+      desc: "With half a decade of expertise in graphic design, web design, and Webflow development, I bring a deep understanding of what makes websites not just beautiful, but effective. Every project benefits from years of refined craft and proven methodologies.",
+      icon: "⚡"
     },
     {
-      label: "14+ Awards",
-      desc: "Our work speaks for itself—recognized internationally, we've already earned some awards. These accolades reflect the passion and innovation we pour into every project, pushing boundaries and delivering results that make an impact.",
-      img: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&q=80&w=200"
+      label: "5-Star Ratings",
+      desc: "Maintaining perfect 5-star ratings on both Google and Malt platforms speaks to the quality and professionalism I bring to every project. My clients consistently praise my attention to detail, responsiveness, and ability to deliver results that exceed expectations.",
+      icon: "⭐"
     },
     {
-      label: "CGN, BLN, Remote",
-      desc: "Headquartered in Cologne, with an expanding team in Berlin, we also embrace remote work. Our colleagues span across cities like Barcelona, Stuttgart, Munich, and more, bringing a mix of perspectives and expertise to everything we do. Whether in the office or working remotely, we stay connected and collaborative.",
-      img: "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=200"
+      label: "Strasbourg, France",
+      desc: "Based in the heart of Strasbourg, I serve French SMBs across the country and work with agencies as a white-label partner. My local presence combined with remote capabilities means I can collaborate effectively with clients wherever they are.",
+      icon: "📍"
     },
     {
-      label: "B-Corp",
-      desc: "We've officially joined the ranks of B-Corp certified companies. This means we meet the highest standards of social and environmental performance, accountability, and transparency. We're proud to use business as a force for good, ensuring our impact extends beyond just profit.",
-      img: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/B_Corp_Logo.svg/1200px-B_Corp_Logo.svg.png" // Placeholder
+      label: "Webflow Specialist",
+      desc: "I specialize in Webflow, a no-code platform with 3.5 million users that offers rapid development, easy evolution, and fast, secure hosting. This expertise allows me to deliver pixel-perfect sites that clients can manage autonomously after launch.",
+      icon: "🎯"
     }
   ];
 </script>
@@ -26,7 +26,7 @@
 <section class="py-24 px-6 md:px-12 bg-white border-t border-gray-100">
   <div class="mb-16">
     <p class="text-gray-500 max-w-xl">
-      Curious about who we are? Here's a snapshot of the team, our achievements, and the milestones we're proud of.
+      Curious about my background? Here's a snapshot of my experience, expertise, and what sets me apart.
     </p>
   </div>
 
@@ -38,7 +38,7 @@
            <p class="text-xs leading-relaxed text-gray-500">{stat.desc}</p>
         </div>
         <div class="w-full md:w-1/6 flex justify-end">
-           <img src={stat.img} alt={stat.label} class="w-20 h-20 object-cover rounded bg-gray-100" />
+           <div class="w-20 h-20 flex items-center justify-center text-4xl bg-gray-50 rounded">{stat.icon}</div>
         </div>
       </div>
     {/each}

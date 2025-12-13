@@ -1,62 +1,62 @@
 <script lang="ts">
   const projects = [
     {
-      client: "Red Bull",
-      desc: "A global platform built to Scale, Evolve, and Perform.",
-      bg: "bg-[#000c2d]",
-      img: "", // Placeholder logic handled in template
+      client: "Easylive.io",
+      desc: "Live streaming platform with intuitive UX and modern design.",
+      bg: "bg-[#1a1a2e]",
+      img: "/generated/image-modern-laptop-screen-showing-a-sleek-liv-1765655499856-0.webp",
       dark: true
     },
     {
-      client: "Volvo",
-      desc: "Redefining how people experience insurance.",
-      bg: "bg-gray-200",
-      img: "https://images.unsplash.com/photo-1556742049-0cfed4f7a07d?auto=format&fit=crop&q=80&w=800",
+      client: "Stellar Coffee",
+      desc: "Coffee shop franchise website showcasing locations and brand identity.",
+      bg: "bg-[#f4e8d8]",
+      img: "/generated/image-warm-coffee-shop-interior-with-modern-br-1765655503540-1.webp",
       dark: false
     },
     {
-      client: "The Organics",
-      desc: "Translating a refreshing identity into a bold platform.",
-      bg: "bg-[#8da356]",
-      img: "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?auto=format&fit=crop&q=80&w=800",
-      dark: false
-    },
-    {
-      client: "Isar Aerospace",
-      desc: "Launching a brand journey into orbit.",
-      bg: "bg-black",
-      img: "",
+      client: "VR Arles Festival",
+      desc: "Bold and experimental design for a virtual reality arts festival.",
+      bg: "bg-[#2a2a3e]",
+      img: "/generated/image-person-wearing-vr-headset-in-an-artistic-1765655506679-2.webp",
       dark: true
     },
     {
-      client: "REWE",
-      desc: "Digital Convenience in your Pocket.",
+      client: "Luna for Health",
+      desc: "Healthcare platform with clean, accessible design and user journey optimization.",
+      bg: "bg-[#e8f4f8]",
+      img: "/generated/image-clean-healthcare-app-interface-on-tablet-1765655509115-3.webp",
+      dark: false
+    },
+    {
+      client: "Zonama",
+      desc: "Modern web presence with strategic content architecture.",
       bg: "bg-[#f0f0f0]",
-      img: "https://images.unsplash.com/photo-1512428559087-560fa5ce7d87?auto=format&fit=crop&q=80&w=800",
+      img: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800",
       dark: false,
-      full: true // Making REWE full width to align last two items
+      full: true
     },
     {
-      client: "Alpha Tauri",
-      desc: "Designing the interface of wearable intelligence.",
-      bg: "bg-[#e0e0e0]",
-      img: "https://images.unsplash.com/photo-1551650975-87deedd944c3?auto=format&fit=crop&q=80&w=800",
-      dark: false
+      client: "Le Pot au Noir",
+      desc: "Restaurant website with immersive visual storytelling.",
+      bg: "bg-[#1a1a1a]",
+      img: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&q=80&w=800",
+      dark: true
     },
     {
-      client: "Zalando",
-      desc: "Designing the Zalando E-Commerce Operating System.",
-      bg: "bg-[#d8c5f0]",
-      img: "https://images.unsplash.com/photo-1555421689-49263376da7a?auto=format&fit=crop&q=80&w=800",
+      client: "Orthomaster",
+      desc: "Professional healthcare website optimized for conversions.",
+      bg: "bg-white",
+      img: "/generated/image-professional-dental-or-orthodontic-clini-1765655511734-4.webp",
       dark: false
     }
   ];
 </script>
 
-<section class="px-6 md:px-12 py-24 bg-white">
+<section id="work" class="px-6 md:px-12 py-24 bg-white">
   <div class="max-w-3xl mb-16">
     <h2 class="text-2xl md:text-3xl font-medium leading-tight">
-      <span class="font-bold">We orchestrate strategy, design, and technology</span> to create digital experiences that connect with millions and give you the edge that sets you apart.
+      <span class="font-bold">I craft pixel-perfect Webflow sites</span> that combine strategic UX design with conversion-focused architecture to help French SMBs grow their business online.
     </h2>
   </div>
 

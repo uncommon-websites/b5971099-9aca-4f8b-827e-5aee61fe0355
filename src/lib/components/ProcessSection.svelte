@@ -3,32 +3,39 @@
 
   const steps = [
     {
-      id: "discover",
-      title: "Discover Novel Opportunities",
-      text: "The right problem is the one worth solving. We quickly uncover actionable opportunities through data and business insights, ensuring that every discovery is grounded in what matters most for your business and your users.",
-      tags: ["Business & Market Research", "Data Driven Insights", "UX Audits", "Customer Journey Mapping", "Brand Perception Analysis", "Technical Assessment"],
+      id: "discovery",
+      title: "Discovery Session",
+      text: "Asking the right questions upfront solves 50% of the problems. I dive deep into understanding your business goals, target audience, and unique challenges to ensure we're building exactly what you need.",
+      tags: ["Business Goals Analysis", "Target Audience Research", "Competitor Analysis", "Brand Understanding", "Technical Requirements", "Success Metrics Definition"],
       graphic: "lines"
     },
     {
-      id: "envision",
-      title: "Envision Innovative Strategies",
-      text: "Great strategies don't just come from ideas—they come from clear, actionable plans. We create pragmatic roadmaps that balance ambition with feasibility, focusing on what will drive immediate and long-term impact for both business and users.",
-      tags: ["CX & Product Strategy", "Vision & Roadmapping", "Value Proposition Design", "Northstar Metric Framework", "Brand Strategy & Positioning", "Technical Solution Design"],
+      id: "ux-wireframes",
+      title: "UX & Wireframes",
+      text: "I focus on user journey optimization and content architecture to create intuitive experiences. Through wireframing, I map out the structure that will guide users seamlessly toward conversion.",
+      tags: ["User Journey Mapping", "Content Architecture", "Information Hierarchy", "Wireframe Creation", "Flow Optimization", "Conversion Strategy"],
       graphic: "curve"
     },
     {
-      id: "build",
-      title: "Build Engaging Touchpoints",
-      text: "We turn strategy into action—fast and efficiently. Whether designing intuitive interfaces, visual identities, or building scalable platforms, we focus on building holistic experiences that are both joyful and effective.",
-      tags: ["UX & UI Design", "Information Architecture", "App & Web Design", "Design Systems", "Content Strategy", "Agile Software Engineering"],
+      id: "web-design",
+      title: "Web Design",
+      text: "This is where your brand comes to life. I create visually stunning designs that are responsive across desktop, tablet, and mobile—always staying true to your visual identity while maximizing user engagement.",
+      tags: ["Visual Design", "Brand Integration", "Responsive Design", "UI Components", "Design Systems", "Accessibility"],
       graphic: "circle-top"
     },
     {
-      id: "elevate",
-      title: "Elevate Delivery Capabilities",
-      text: "We make sure teams can deliver better outcomes, faster. By evolving collaborative workflows, upskilling teams, and implementing the right tools, we help you scale with confidence and consistency.",
-      tags: ["AI Consulting", "QA & Delivery", "Process Optimization", "Performance Analytics", "Continuous Improvement", "Change Management"],
+      id: "webflow-dev",
+      title: "Webflow Development",
+      text: "I build your site pixel-perfect in Webflow, leveraging the platform's power for rapid development, easy evolution, and fast, secure hosting. Every interaction is crafted with attention to detail.",
+      tags: ["Pixel-Perfect Development", "Webflow CMS Setup", "Interactions & Animations", "Performance Optimization", "SEO Foundation", "Cross-Browser Testing"],
       graphic: "circle-waves"
+    },
+    {
+      id: "handoff",
+      title: "Client Handoff",
+      text: "I don't just deliver a website and disappear. I provide comprehensive training so you can manage your site autonomously, plus ongoing support to ensure your success long after launch.",
+      tags: ["Client Training", "CMS Documentation", "Content Guidelines", "Maintenance Support", "Performance Monitoring", "Future Optimization"],
+      graphic: "lines"
     }
   ];
 
@@ -63,7 +70,7 @@
   });
 </script>
 
-<section class="bg-[#1a1a40] text-white py-24 px-6 md:px-12 relative" bind:this={sectionRef}>
+<section id="process" class="bg-[#1a1a1a] text-white py-24 px-6 md:px-12 relative" bind:this={sectionRef}>
   <div class="max-w-screen-2xl mx-auto flex flex-col md:flex-row gap-12">
     
     <!-- Sticky Navigation -->
@@ -71,7 +78,7 @@
       <div class="space-y-8">
         {#each steps as step, i}
           <div class="transition-opacity duration-500 {i === activeStep ? 'opacity-100' : 'opacity-30'}">
-            <p class="text-xl md:text-2xl font-light mb-1">People work with us to</p>
+            <p class="text-xl md:text-2xl font-light mb-1">My 5-step process</p>
             <h2 class="text-2xl md:text-3xl font-bold">{step.title}</h2>
           </div>
         {/each}

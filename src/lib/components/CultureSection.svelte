@@ -1,27 +1,27 @@
 <script lang="ts">
   const cards = [
     {
-      title: "We're Not Just a Vendor...",
-      subtitle: "We're Your Partner In Crime.",
-      image: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80&w=800"
+      title: "Not Just a Designer...",
+      subtitle: "A Strategic Partner.",
+      image: "/generated/image-designer-working-at-desk-with-multiple-s-1765655514522-5.webp"
     },
     {
-      title: "We Don't Just Follow Trends...",
-      subtitle: "We Shape New Territories.",
-      image: "https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&q=80&w=800"
+      title: "Not Just Beautiful...",
+      subtitle: "Conversion-Focused.",
+      image: "/generated/image-close-up-of-hands-typing-on-laptop-with--1765655628954-0.webp"
     },
     {
-      title: "We Don't Play By The Book...",
-      subtitle: "We Write It Together.",
-      image: "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&q=80&w=800"
+      title: "Not Just Development...",
+      subtitle: "Pixel-Perfect Craft.",
+      image: "/generated/image-computer-screen-showing-pixel-perfect-we-1765655631425-1.webp"
     }
   ];
 </script>
 
-<section class="py-24 px-6 md:px-12 bg-white">
+<section id="about" class="py-24 px-6 md:px-12 bg-white">
   <div class="max-w-2xl mb-16">
     <p class="text-xl md:text-2xl leading-relaxed text-gray-800">
-      Collaboration isn't just a buzzword—it's how we roll. We're not here to hand off some cookie-cutter deliverable and disappear; we're in it with you, from day one.
+      I'm known for my attention to detail, collaborative approach, and technical expertise. Clients describe me as professional, responsive, and efficient—a true team player who brings both rigor and good humor to every project.
     </p>
   </div>
 
